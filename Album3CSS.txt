@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+<link href="albumStyles.css" 
+      rel="stylesheet" 
+      type="text/css" />
 <style>
 body{
     background-color: gray;
