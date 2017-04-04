@@ -1,0 +1,31 @@
+<form action="contactUs.Html">
+<Div>
+First Name: <input type="text" name="FN"/>
+</Div>&ensp;
+<div>
+Last Name: <input type="text name="LN"/>
+</Div>&ensp;
+<div>
+Email:  <input type="text" name="email"/>
+</div>&ensp;
+<div>
+Type of License:  <input type="radio" name="per" value="Personal" checked/>Personal
+<input type="radio" name="bus" value="Business"/>Business<br/>
+</div>&ensp;
+<div>
+Reason:  <select name="reason dropdown">
+<option value="Software Support">Software Support</option>
+  <option value="Hardware Support">Hardware Support 2</option>
+  <option value="Information Request">Information Request</option>
+</select>
+</div>&ensp;
+<Div>
+Additional Information:  <textarea name="briefDescription"></textarea><br/>
+</div>&ensp;
+<div>
+<input type="checkbox" name="agreement" value="I have read the terms of service"/>I have read the terms of service<br/>
+</div>&ensp;
+<div>
+ <input type="submit" Value="send request"/><br/>
+</div>
+</form>
