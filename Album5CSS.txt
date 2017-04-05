@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<style>
+/* link */
+a:link {
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    text-decoration: underline;
+    background-color: yellow;
+</style>
+<link href="albumStyles.css" 
+      rel="stylesheet" 
+      type="text/css" />
+<title>Album Lab</title>
+</head>
+<center><div><img src="http://s2.evcdn.com/images/edpborder500/I0-001/015/303/373-6.jpeg_/dave-matthews-band-73.jpeg"/></div>
+<h1 style="border: solid black 1px";>
+<font face="Showcard Gothic" >The Central Park Concert</font></h1>
+<a href=http://www.davematthewsband.com/>Dave matthews Band</a>
+<h2>2003</h2></center>
+<hr></hr>
+<center><h2><font face=Verdana color=red > Band Members and Producers</font> </h2></center>
+<ul><i>
+<li>Dave Matthews - vocals</li>
+<li>Boyd Tinsley - Violin</li>
+<li>Carter Beauford - drums</li>
+<li>Jeff Coffin - Saxophone</li>
+</i>
+</ul>
+<center><table bgcolor="lightblue" border="1" width=”100%”>
+<tr bgcolor="gray">
+<td>Track</td>
+<td>Track Title</td>
+<td>Track Length</td>
+</tr>
+<tr>
+<td>1</td>
+<td><i>Dont Drink the Water</i></td>
+<td><i>10:09</i></td>
+</tr>
+<tr>
+<td>2</td>
+<td><i>So Much to Say</i></td>
+<td><i>4:14</i></td>
+</tr>
+<tr>
+<td>3</td>
+<td><i>Too Much</i></td>
+<td><i>6:41</i></td>
+</table></center>
+<link href="albumStyles.css" 
+      rel="stylesheet" 
+      type="text/css" />
+      </html>
