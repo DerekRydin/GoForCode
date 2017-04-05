@@ -1,0 +1,81 @@
+<html>
+  <head>
+   <link rel="stylesheet" type="text/css" href="RestaurantStyles.css">
+   <style>
+body {
+    background-color: lightgray;
+}
+h1  {
+    color: Red;
+}    
+/* visited link */
+}
+a:visited { 
+    color: yellow;
+}
+a:link {
+    text-decoration: underline;
+}
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    }
+</style>
+    <title>Restaurant Lab</title>
+  </head>
+  <h1><center><font face=Algerian> Derek's Diner</font></center></h1>
+  <hr></hr>
+  <a href="home.html">Home<a/>
+  <a href="menu.html">Menu<a/>
+  <a href="contactus.html">Contact Us<a/>
+  <hr></hr>
+  <table cellspacing="20">
+  <tr>
+  <td><h2>Burger and Fries</h2></td>
+  <td><h2>Hot Dog and Chips</h2></td>
+  <td><h2>Italian Sausage and Peppers</h2></td>
+  </tr>
+  <tr>
+  <td>An American Classic!  Your choice - with or without cheese.  $7.95</td>
+  <td>A Summer classic!  Your choice - white or wheat bun.  $7.95</td>
+  <td>An all-time Favorite! Your choice - sweet or spicy.  $10.95</td>
+  </tr>
+  </table>
+  <table>
+  <tr>
+  <td><h2>Steak Sandwich and Chips</h2></td>
+  <td><h2>House Salad</h2></td>
+  <td><h2>Brisket and Fries</h2></td>
+  </tr>
+  <tr>
+  <td> Really hits the spot!.  Plain or seedless bun.  $8.95</td>
+  <td>On the lighter side.  Your choice with or without cheese. $6.95</td>
+  <td>A taste of Texas!  Served with Coleslaw.$7.95</td>
+  </tr>
+  </table><br>
+  <div style= "text-decoration: underline;"> Beverages</Div>
+  <Table width=50%>
+  <tr>
+  <td> Root Beer </td>
+  <td> $3.00</td>
+  </tr>
+  <tr>
+  <td>Bottled Water</td>
+  <td>$1.75</td>
+  </tr>
+  <tr>
+  <td>Lemonade</td>
+  <td>$1.00</td>
+  </tr>
+  <tr>
+  <td>Iced Tea</td>
+  <td>$1.75</td>
+  </tr>
+  </table>
+  <hr></hr>
+   <div>
+  <center>1234 Dover Way Dover, NH 03820</center>
+  <center>(603)749-1234</center>
+  </div>
+  </html>
