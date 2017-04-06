@@ -1,0 +1,48 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+.mydiv {
+    background-color: lightblue;
+/* visited link */
+}
+a:visited { 
+    color: yellow;
+}
+a:link {
+    text-decoration: underline;
+}
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+</style>
+  <link rel="stylesheet" type="text/css" href="RestaurantStyles.css">
+    <title>Restaurant Lab</title>
+  </head>
+  <h1><center><font face=Algerian> Derek's Diner</font></center></h1>
+  <div class="container">
+  <div class="jumbotron">
+    <h1>New Location Opening Soon!</h1>      
+  </div>
+  <hr></hr>
+  <ul class="nav nav-tabs">
+  <li class="active"><a class="glyphicon glyphicon-home"href="#"></a></li>
+  <li><a href="#">Menu</a></li>
+  <li><a href="#">Contact Us</a></li>
+</ul>
+  <hr></hr>
+  <div class=mydiv>
+  <center><img src="https://img.grouponcdn.com/deal/xv1vnM6sMg5Ynyf7RJb4q/155873831-2048x1229/v1/c700x420.jpg" 
+     alt="Diner Food" 
+     div.static {
+    position: static;
+     style="width: 400px;height: 150px"/></center>
+  <blockquote><center>Decription:  Derek's Diner is a full service Diner located in Dover, NH.  The Diner was established in 2016 and has been serving Diner favorites ever since. </center></blockquote>
+  </div>
+  <hr></hr>
+  <div>
+  <center>1234 Dover Way Dover, NH 03820</center>
+  <center>(603)749-1234</center>
+  </div>
+  </html>

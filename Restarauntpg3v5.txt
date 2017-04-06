@@ -1,0 +1,63 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="RestaurantStyles.css">
+    <title>Restaurant Lab</title>
+  </head>
+   <style>
+   /* visited link */
+}
+a:visited { 
+    color: yellow;
+}
+a:link {
+    text-decoration: underline;
+}
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    }
+body {
+    background-image: url("http://pad2.whstatic.com/images/6/6e/Old-Paper.png");
+}
+h1  {
+    color: Red;
+}    
+</style>
+  <h1><center><font face=Algerian> Derek's Diner</font></center></h1>
+  <hr></hr>
+   <ul class="nav nav-tabs">
+  <li class="active"><a class="glyphicon glyphicon-home"href="#"></a></li>
+  <li><a href="#">Menu</a></li>
+  <li class="active"><a href="#">Contact Us</a></li>
+</ul>
+  <hr></hr>
+  <form>
+  <center><div><b>Name:</b><input type="text" name="Name"/><br/>&ensp;</div>
+  <div><b>Email:</b><input type="text" name="Email"/><br/>&ensp;</div>
+  <div><b>Phone:</b><input type="text" name="Phone"/><br/>&ensp;</div>
+  <div><b>Reason for Inquiry:</b><select name="Reason">
+  <option value="Catering"Default>Catering</option>
+  <option value="private party">Private Party</option>
+  <option value="Feedback">Feedback</option>
+  <option value="Other">Other</option>
+</select>&ensp;</div>
+<div>Additional Information:<textarea name="add info"></textarea><br/>&ensp;</Div>
+<div>Have you been to the Restaurant?:
+    <input type="radio" name="answer" value="Yes" checked/>Yes
+    <input type="radio" name="answer" value="No"/>No&ensp;</div>
+ <div>Best Days to Contact You: 
+    <input type="checkbox" name="Monday" value="M"/>M
+    <input type="checkbox" name="Tuesday" value="T"/>T
+    <input type="checkbox" name="Wednesday" value="W"/>W
+    <input type="checkbox" name="Thursday" value="Th"/>TH
+    <input type="checkbox" name="Friday" value="F"/>F</Div>
+    <input type="submit" value="Send Request"/> 
+    </form>
+    <hr></hr>
+   <div>
+  <center>1234 Dover Way Dover, NH 03820</center>
+  <center>(603)749-1234</center>
+  </div>
+  </html>
